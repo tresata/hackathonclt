@@ -4,7 +4,8 @@ hackathonclt
 Welcome to hackathonclt!
 
 ## User Creation:
-http://192.168.1.115:5000/
+http://dev.hackathonclt.org:5000/
+- Note takes ~5min for user creation across the cluster
 
 ## Getting Started
 
