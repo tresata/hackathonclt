@@ -10,13 +10,13 @@ http://dev.hackathonclt.org:5000/
 ##Machines
 Machines avaliable to work on:
 
-slave01.hackathonclt.org
+    > slave01.hackathonclt.org
 
-slave02.hackathonclt.org
+    > slave02.hackathonclt.org
 
-slave03.hackathonclt.org
+    > slave03.hackathonclt.org
 
-slave04.hackathonclt.org
+    > slave04.hackathonclt.org
 
 Please spread yourselvs out across the machines
 
@@ -98,5 +98,5 @@ http://master.hackathonclt.org:50030
 ##Spark Job Tracker
 http://master.hackathonclt.org:8080
 
-##Datnode information
+##Namenode information
 http://master.hackathonclt.org:50070
