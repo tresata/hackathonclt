@@ -3,15 +3,24 @@ hackathonclt
 
 Welcome to hackathonclt!
 
-## User Creation:
+## User Creation
 http://dev.hackathonclt.org:5000/
 - Note takes ~5min for user creation across the cluster
+
+##Machines
+Machines avaliable to work on:
+slave01.hackathonclt.org
+slave02.hackathonclt.org
+slave03.hackathonclt.org
+slave04.hackathonclt.org
+
+Please spread yourselvs out across the machines
 
 ## Getting Started
 
 Ssh into the server where you can access the retail data stored on the hackathon HDFS cluster.
 
-    > ssh username@204.15.96.198
+    > ssh username@slave01.hackathonclt.org
 
 and enter the password you specified in user creation.
 
