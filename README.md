@@ -9,12 +9,18 @@ http://dev.hackathonclt.org:5000/
 
 ##Machines
 Machines avaliable to work on:
+
 slave01.hackathonclt.org
+
 slave02.hackathonclt.org
+
 slave03.hackathonclt.org
+
 slave04.hackathonclt.org
 
 Please spread yourselvs out across the machines
+
+NOTE: if you have any dns issues, speak to staff
 
 ## Getting Started
 
@@ -84,3 +90,13 @@ you can run a query on the data set sample from the command-line:
     > eval-tool test.scala --hdfs --input bsv%/sample/data_with_headers/hackathon_data_headers --output bsv%upc_counts
 
 This will generate a bar-separated file called 'upc_counts' in your HDFS home directory, containing the upc numbers along with their total counts.
+
+
+##Job Tracker
+http://master.hackathonclt.org:50030
+
+##Spark Job Tracker
+http://master.hackathonclt.org:8080
+
+##Datnode information
+http://master.hackathonclt.org:50070
