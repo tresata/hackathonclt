@@ -99,6 +99,13 @@ you can run a query on the data set sample from the command-line:
 
 This will generate a bar-separated file called 'upc_counts' in your HDFS home directory, containing the upc numbers along with their total counts.
 
+To access your HDFS location, you need to use hadoop fs commands (some reference: http://www.folkstalk.com/2013/09/hadoop-fs-shell-command-example-tutorial.html). For example, to take a look at your home directory on HDFS, use
+
+    > hadoop fs -ls
+
+or
+
+    > hadoop fs -ls /user/username
 
 ##Job Tracker
 http://master.hackathonclt.org:50030
