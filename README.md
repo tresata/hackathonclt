@@ -48,7 +48,7 @@ Give Hive a whirl and run a sample query:
 
 Try pasting the following query into the hive command-line interface:
 
-    hive> select UPC_NUMBER, ITEM_DESCRIPTION, DEPARTMENT_DESCRIPTION, EXTENDED_PRICE_AMOUNT from hackathon_sample limit 10;
+    hive> select UPC_NUMBER, ITEM_DESCRIPTION, DEPARTMENT_DESCRIPTION, EXTENDED_PRICE_AMOUNT from hackathon_sample_real limit 10;
 
 This will a launch a (map-only) MapReduce job and return the specified fields for the first ten items in the 'hackathon' table.
 
