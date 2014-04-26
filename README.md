@@ -102,23 +102,23 @@ http://master.hackathonclt.org:8080
 http://master.hackathonclt.org:50070
 
 ##Data Dictionary
-*UPC_NUMBER                      int     unique product code of item
-*MASTER_UPC_NUMBER               int     master UPC number, UPC numbers go under this
-*ITEM_DESCRIPTION                string   describes item
-*DEPARTMENT_NUMBER               int     department number
-*DEPARTMENT_DESCRIPTION          string  describes department
-*CATEGORY_NUMBER                 int     category number of item
-*CATEGORY_DESCRIPTION            string  describes category of item
-*SUBCATEGORY_NUMBER              int     subcategory of item
-*SUBCATEGORY_DESCRIPTION         string  describes subcategory of item
-*RECEIPT_NUMBER                  string  recipe number of the purchase
-*ITEM_QUANTITY                   int     how many items was bought
-*EXTENDED_PRICE_AMOUNT           float   actual sale per swipe
-*DISCOUNT_QUANTITY               float   number of coupons applied
-*EXTENDED_DISCOUNT_AMOUNT        float   amount discounted
-*TENDER_AMOUNT                   float   amount tendered by the customer for the transaction
-*TRANSACTION_DATETIME            string  date of transaction
-*EXPRESS_LANE                    int     flag of whether the purchase was through Express Lane, tagged to recipe number. 1 mean yes, 0 means no
-*HHID                            string  house hold id 
+    UPC_NUMBER                      int     unique product code of item
+    MASTER_UPC_NUMBER               int     master UPC number, UPC numbers go under this  
+    ITEM_DESCRIPTION                string   describes item
+    DEPARTMENT_NUMBER               int     department number
+    DEPARTMENT_DESCRIPTION          string  describes department
+    CATEGORY_NUMBER                 int     category number of item
+    CATEGORY_DESCRIPTION            string  describes category of item
+    SUBCATEGORY_NUMBER              int     subcategory of item
+    SUBCATEGORY_DESCRIPTION         string  describes subcategory of item
+    RECEIPT_NUMBER                  string  recipe number of the purchase
+    ITEM_QUANTITY                   int     how many items was bought
+    EXTENDED_PRICE_AMOUNT           float   actual sale per swipe
+    DISCOUNT_QUANTITY               float   number of coupons applied
+    EXTENDED_DISCOUNT_AMOUNT        float   amount discounted
+    TENDER_AMOUNT                   float   amount tendered by the customer for the transaction
+    TRANSACTION_DATETIME            string  date of transaction
+    EXPRESS_LANE                    int     flag of whether the purchase was through Express Lane, tagged to recipe number. 1 mean yes, 0 means no
+    HHID                            string  house hold id 
 
 
