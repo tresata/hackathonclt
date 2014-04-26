@@ -117,9 +117,9 @@ http://master.hackathonclt.org:8080
 http://master.hackathonclt.org:50070
 
 ##Data Dictionary
-    UPC_NUMBER                      int     unique product code of item
-    MASTER_UPC_NUMBER               int     master UPC number, UPC numbers go under this  
-    ITEM_DESCRIPTION                string   describes item
+    UPC_NUMBER                      long    unique product code of item
+    MASTER_UPC_NUMBER               long    master UPC number, UPC numbers go under this  
+    ITEM_DESCRIPTION                string  describes item
     DEPARTMENT_NUMBER               int     department number
     DEPARTMENT_DESCRIPTION          string  describes department
     CATEGORY_NUMBER                 int     category number of item
