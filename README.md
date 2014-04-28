@@ -5,13 +5,6 @@ Welcome to hackathonclt!
 
 ## User Creation
 http://dev.hackathonclt.org:5000/
-- Note takes ~5min for user creation across the cluster
-- If you have any DNS issues direct ips are:
-- slave01 204.15.96.198
-- slave02 204.15.96.195
-- slave03 204.15.96.196
-- slave04 204.15.96.197
-- And user creation at: 192.168.1.115:5000
 
 
 
