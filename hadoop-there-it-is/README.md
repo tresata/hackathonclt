@@ -1,0 +1,13 @@
+## How to access the data
+
+Run the following on Hive:
+
+```bash
+hive -e "select UPC_NUMBER, MASTER_UPC_NUMBER, ITEM_DESCRIPTION, DEPARTMENT_NUMBER, DEPARTMENT_DESCRIPTION, CATEGORY_NUMBER, CATEGORY_DESCRIPTION, SUBCATEGORY_NUMBER, SUBCATEGORY_DESCRIPTION, RECEIPT_NUMBER, ITEM_QUANTITY, EXTENDED_PRICE_AMOUNT, DISCOUNT_QUANTITY, EXTENDED_DISCOUNT_AMOUNT, TENDER_AMOUNT, TRANSACTION_DATETIME, EXPRESS_LANE, HHID from hackathon_real where MASTER_UPC_NUMBER='3700000445'"
+```
+
+Take the data and then load it in via the 'Dial Dish Soap.ipynb' notebook.
+
+To start the notebook server:
+
+`ipython notebook`
