@@ -1,0 +1,43 @@
+<div class="scrollable">
+    <div class="scrollable-content">
+
+        <div class="list-group">
+            <div class="list-group-item">
+                <h1>Previous Order <br/>
+                    <small>Select items to see additional recommendations</small>
+                </h1>
+            </div>
+            <div ng-repeat="item in items" class="list-group-item media">
+                <div class="pull-left">
+                    <i class="fa fa-shopping-cart feature-icon"></i>
+                </div>
+                <div class="media-body">
+                    <span><h3>{{ item.name }}</h3>
+                    <button ng-click="showWines()" class="btn btn-primary">Recommend wines</button></span>
+                    <span>
+                <div ng-hide="showwines !==true"><h3>Wines</h3></div>
+
+                <div ng-hide="showwines !==true">
+                    <div ng-repeat="wine in wines">
+                        {{ wine.name }}
+                    </div>
+                </div>
+</span>
+                </div>
+            </div>
+
+        </div>
+
+        <form>
+
+            <div bs-panel class="text-center form-actions">
+                <div content-for="navbarAction" duplicate>
+                    <button class="btn btn-primary">
+                        <a style="color: #000000" href="#/home">Submit Express Lane Order</a>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
